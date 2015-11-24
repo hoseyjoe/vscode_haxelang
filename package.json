@@ -1,0 +1,20 @@
+{
+	"name": "HaxeLang",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": ">=0.9.0-pre.1"
+	},
+	"publisher": "none",
+	"contributes": {
+		"languages": [{
+			"id": "haxe",
+			"aliases": ["Haxe", "haxe"],
+			"extensions": [".hx",".hxsl",".hscript"]
+		}],
+		"grammars": [{
+			"language": "haxe",
+			"scopeName": "source.haxe.2",
+			"path": "./syntaxes/haxe.tmLanguage"
+		}]
+	}
+}
